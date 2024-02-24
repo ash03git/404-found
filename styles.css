@@ -1,0 +1,74 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Styles for Navigation Bar */
+.navbar {
+    background-color: #333;
+    height: 120px;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    width: 10%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/* Styles for Card Container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Styles for Card */
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: #c994d8; /* Gray background */
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Arrange title and content vertically */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Styles for Card Title */
+.card-title {
+    background-color: #444444; /* Darker gray for title background */
+    padding: 10px;
+    text-align: center;
+}
+
+.card-title h3 {
+    margin: 0;
+}
+
+/* Styles for Card Content */
+.card-content {
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: calc(100% - 40px);
+    }
+}
