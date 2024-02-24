@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #8e8e8e;
 }
 
 /* Styles for Navigation Bar */
@@ -38,7 +38,7 @@ body {
 .card {
     width: 300px;
     height: 300px;
-    background-color: #c994d8; /* Gray background */
+    background-color: #9a66a8; /* Gray background */
     border-radius: 10px;
     overflow: hidden;
     color: white;
